@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Local vector database
+chroma-data/
+
+# Company User Guide / private documents
+data/user-guide/
+
+# Logs
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
