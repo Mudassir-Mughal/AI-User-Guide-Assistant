@@ -162,9 +162,9 @@ ${chunk.topic}
   const count =
     await collection.count();
 
-  console.log(
-    "\nIngestion completed."
-  );
+ console.log(
+  "Ingestion completed"
+ )
 
   console.log(
     `Chunks stored in ChromaDB: ${count}`
